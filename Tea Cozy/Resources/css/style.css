@@ -1,0 +1,104 @@
+body {
+  background-color: black;
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+  font-size: 22px;
+}
+
+/* Header */
+header {
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+  background-color: black;
+  top: 0;
+}
+
+#logo img {
+  padding-left: 10px;
+  height: 50px;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+}
+
+nav a {
+  color: seashell;
+  text-decoration: underline;
+  font-size: 22px;
+}
+
+/* Mission Statement */
+#mission-background {
+  width: 1200px;
+  height: 700px;
+  background-image: url("../img/img-mission-background.jpg");
+  margin: 0 auto;
+}
+
+#mission-statement {
+  background-color: black;
+  z-index: 5;
+  position: absolute;
+  margin-top: 350px;
+  width: 1200px;
+}
+
+/* Teas of the Month */
+#featured-teas {
+  margin: 0 auto;
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feature img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+/* Locations */
+#locations {
+  background-image: url("../img/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#locations h2 {
+  padding-top: 50px;
+}
+
+#location-containers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location {
+  height: 300px;
+  width: 300px;
+  opacity: 1;
+  background-color: black;
+  margin: 0 20px;
+}
+
+/* Footer */
+footer {
+  height: 200px;
+}
+
+#copyright {
+  text-align: left;
+  padding-left: 20px;
+}
